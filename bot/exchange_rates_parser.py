@@ -27,7 +27,7 @@ class ExchangeRatesParser:
         "https://api.coingecko.com/api/v3/ping",
         "https://api.coingecko.com/api/v3/exchange_rates",
     )
-    redis_connection = redis.Redis(host="localhost", port=6379)
+    redis_connection = redis.Redis(host="redis", port=6379)
 
     @classmethod
     def __parse_rates(cls):
