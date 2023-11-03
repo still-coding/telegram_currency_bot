@@ -18,7 +18,9 @@ You can do somethins like this:
 
 1. Obtain API token from [Telegram's BotFather](https://t.me/botfather)
 
-2. Run containers using 
+2. Put it in `bot_api_token.py` under `TOKEN` name.
+
+3. Run containers using 
     ```shell
     docker compose up
     ```
